@@ -1,0 +1,14 @@
+BoxLayout:
+    orientation: "vertical"
+    TextInput:
+        id: txt_input
+        text: "2 + 2"
+    Label:
+        id: lbl
+        text: "Answer = 0"
+    Button:
+        text: "Calculate"
+        on_release: print(root)
+#            lbl.text = f"Answer = {eval(txt_input.text)}"
+#            lbl.text = "Answer = {}".format(eval(txt_input.text))
+#            lbl.text = f"Answer = " + str(eval(txt_input.text))
